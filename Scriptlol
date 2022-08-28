@@ -1,0 +1,45 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("LUCKY BLOCK BATTLEGROUND", "BloodTheme")
+
+
+--MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("LuckyBlock", "opens a normal lucky block", function()
+    game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
+end)
+
+
+MainSection:NewButton("SuperBlock", "Opens a superblock", function()
+    game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
+end)
+
+
+MainSection:NewButton("DiamondBlock", "Opens a Diamond block", function()
+    game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
+end)
+
+
+MainSection:NewButton("RainbowBlock", "Opens a Rainbow block", function()
+    game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
+end)
+
+
+
+MainSection:NewButton("GalaxyBlock", "Opens a GalaxyBlock", function()
+
+    game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
+end)
+
+
+
+
+
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("Credits")
+
+
+CreditsSection:NewLabel("Made by ! mo#0373 ")
+CreditsSection:NewLabel("Enjoy exploiting  ")
