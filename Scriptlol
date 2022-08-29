@@ -13,24 +13,24 @@ end)
 
 
 MainSection:NewButton("SuperBlock", "Opens a superblock", function()
-    game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
+    game:GetService("ReplicatedStorage").SpawnSuperBlock:FireServer()
 end)
 
 
 MainSection:NewButton("DiamondBlock", "Opens a Diamond block", function()
-    game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
+    game:GetService("ReplicatedStorage").SpawnDiamondBlock:FireServer()
 end)
 
 
 MainSection:NewButton("RainbowBlock", "Opens a Rainbow block", function()
-    game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
+    game:GetService("ReplicatedStorage").SpawnRainbowBlock:FireServer()
 end)
 
 
 
 MainSection:NewButton("GalaxyBlock", "Opens a GalaxyBlock", function()
 
-    game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
+    game:GetService("ReplicatedStorage").SpawnGalaxyBlock:FireServer()
 end)
 
 
